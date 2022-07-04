@@ -1,8 +1,10 @@
 package Graph;
 
+import java.util.ArrayList;
+
 public class Vertex {
     int id;
-    ArrayList<> neighbors = new ArrayList<int>();
+    ArrayList<Integer> neighbors = new ArrayList<Integer>();
 
     // Constructor
     Vertex(int Name){
@@ -15,5 +17,9 @@ public class Vertex {
 
     public void addNeighbor(int neighbor){
         neighbors.add(neighbor);
+    }
+
+    public int getId(){
+        return id;
     }
 }

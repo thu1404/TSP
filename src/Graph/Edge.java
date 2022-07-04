@@ -23,4 +23,14 @@ public class Edge {
     public void updateWeight(float weightUpdate){
         this.weight = weightUpdate;
     }
+    public int getSource(){
+        return source;
+    }
+    public int getDestination(){
+        return destination;
+    }
+
+    public float getWeight(){
+        return weight;
+    }
 }
